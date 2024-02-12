@@ -3,14 +3,8 @@ import backgroundvector from "../assets/img/vector-2.png"
 
 const ContactForm = () => {
     return (
-        <div
-            style={{
-                backgroundImage: `url(${backgroundvector})`, // Replace with your actual image path
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-            }}
-        >
+        <div>
+            <img className='absolute w-full h-full opacity-[0.4]' src={backgroundvector} />
             <div className="pt-10">
                 <center>
                     <h2

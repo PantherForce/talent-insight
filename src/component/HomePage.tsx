@@ -25,8 +25,8 @@ const HomePage = () => {
         />
 
         <Feature
-          title="HR Tech implementation"
-          description="Our team is deeply immersed in the HR tech world, providing end-to-end solutions for seamless implementation. We ensure that your organization leverages the latest advancements to streamline processes and enhance productivity."
+          title="Managed Sourcing"
+          description="Simplify your talent acquisition process with our managed sourcing services. We leverage our industry expertise to find, attract, and retain top-tier talent for your organization."
           imgSrc={image3} // Replace with your actual image path
           imgAlt="HR Tech implementation"
         />

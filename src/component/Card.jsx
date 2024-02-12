@@ -5,7 +5,7 @@ import React from "react";
 const Card = ({ title, description, imgSrc }) => {
     return (
         // mx-auto will center the card in its container, you can adjust max-w-md to change the card size
-        <div className="mx-auto w-64 max-w-sm rounded-lg bg-white p-6 shadow-md">
+        <div className="mx-auto w-64 max-w-sm rounded-lg  bg-white p-6 shadow-2xl">
             <div className="flex justify-center">
                 <img src={imgSrc} alt={title} width={90} height={80} />
             </div>

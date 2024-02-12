@@ -1,29 +1,25 @@
-import React from 'react'
-import Card from './Card'
-import handshake from "../assets/img/handshake 1.png"
-import image2 from "../assets/img/decision-making 1.png"
-import image3 from "../assets/img/goal 1.png"
-import vectorone from "../assets/img/Vector.png"
-
+import React from 'react';
+import Card from './Card';
+import handshake from "../assets/img/handshake 1.png";
+import image2 from "../assets/img/decision-making 1.png";
+import image3 from "../assets/img/goal 1.png";
+import vectorone from "../assets/img/Vector.png";
 
 const SectionFour = () => {
     return (
         <div
+            className="relative"
             style={{
-                backgroundImage: `url(${vectorone})`, // Replace with your actual image path
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
                 minHeight: "70vh"
-
             }}
-
         >
+            {/* Pseudo-element for background image with reduced opacity */}
+            <div><img className='absolute w-full h-full opacity-[0.4]' src={vectorone} /></div>
 
             <div className="container mx-auto mt-20 px-4 py-8">
-                <div className="flex flex-col  space-y-4 md:-mx-4 md:flex-row md:space-y-0">
+                <div className="flex flex-col space-y-4 md:-mx-4 md:flex-row md:space-y-0">
                     <Card
-                        imgSrc={handshake} // Replace with your actual image path
+                        imgSrc={handshake}
                         title="Expertise in HR tech"
                         description="Benefit from our in-depth knowledge and experience in the HR tech space. We've successfully guided numerous firms through the ever-evolving landscape of technology solutions."
                     />
@@ -39,9 +35,8 @@ const SectionFour = () => {
                     />
                 </div>
             </div>
-
         </div>
-    )
+    );
 }
 
-export default SectionFour
+export default SectionFour;
