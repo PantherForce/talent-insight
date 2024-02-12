@@ -5,7 +5,7 @@ import ContentContainer from './ContentContainer'
 const AboutUs = () => {
     return (
         <ContentContainer>
-            <div className="flex flex-col items-center justify-center p-4 md:flex-row">
+            <div id='about' className="flex flex-col items-center justify-center p-4 md:flex-row">
                 <div className="md:w-1/2">
                     <h2
                         style={{ color: "rgba(52, 92, 167, 0.7458)" }}

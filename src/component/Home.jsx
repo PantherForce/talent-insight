@@ -32,7 +32,6 @@ const Home = () => {
                         <li><a href="#about" className="hover:text-gray-300">About</a></li>
                         <li><a href="#solution" className="hover:text-gray-300">Solution</a></li>
                         <li><a href="#expertise" className="hover:text-gray-300">Area of Expertise</a></li>
-                        <li><a href="#files" className="hover:text-gray-300">Think Files</a></li>
                         <li><a href="#contact" className="hover:text-gray-300">Contact us</a></li>
                     </ul>
 
@@ -58,8 +57,8 @@ const Home = () => {
 
             {/* Main Content */}
             <div className="relative z-10 p-4 sm:p-2 mt-20 md:mt-32 lg:mt-40"> {/* Adjust top margin as per the nav height */}
-                <div className="flex flex-col items-center justify-center">
-                    <h1 className="mb-4 text-xl sm:text-lg xs:text-base font-bold md:text-4xl lg:text-4xl">
+                <div className="flex flex-col mb-14 items-center justify-center">
+                    <h1 className="mb-4 text-xl sm:text-lg xs:text-base font-bold md:text-3xl lg:text-3xl">
                         <div className="text-center">
                             Build strategic and operational <br className="hidden sm:block" /> excellence through curated <br className="hidden sm:block" />
                             HR technology solutions

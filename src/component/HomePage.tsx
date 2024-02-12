@@ -8,7 +8,7 @@ import image3 from "../assets/img/Group 1171277070.png";
 const HomePage = () => {
   return (
     <ContentContainer>
-      <div className="container mx-auto px-4">
+      <div id="solution" className="container mx-auto px-4">
         <Feature
           title="HR Tech implementation"
           description="Our team is deeply immersed in the HR tech world, providing end-to-end solutions for seamless implementation. We ensure that your organization leverages the latest advancements to streamline processes and enhance productivity."

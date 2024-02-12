@@ -5,7 +5,7 @@ import ContentContainer from "./ContentContainer";
 const AreaOfInterest = () => {
     return (
 
-        <div style={{
+        <div id="expertise" style={{
             backgroundImage: `url(${backgroundImage})`, // Replace with your actual image path
             backgroundPosition: "center",
             backgroundSize: "cover",
